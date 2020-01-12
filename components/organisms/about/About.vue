@@ -48,6 +48,7 @@ export default {
         },
         {
           link: 'https://mastodon.kxn4t.tech/@kxn4t',
+          rel: 'me',
           iconClass: 'icon-mastodon',
           iconElement: '<i class="fab fa-mastodon"></i>'
         },

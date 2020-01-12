@@ -2,16 +2,16 @@
   <div class="round-button text-lg">
     <a
       :href="link"
+      :rel="'noreferrer noopener ' + rel"
       target="_blank"
-      rel="noreferrer noopener"
       class="round-button-link"
     >
       <span class="round-button-inner"></span>
     </a>
     <a
       :href="link"
+      :rel="'noreferrer noopener ' + rel"
       target="_blank"
-      rel="noreferrer noopener"
       class="round-button-icon"
     >
       <span v-html="iconElement" :class="iconClass"></span>
@@ -26,6 +26,11 @@ export default {
       type: String,
       default: 'https://twitter.com/kxn4t',
       required: true
+    },
+    rel: {
+      type: String,
+      default: '',
+      required: false
     },
     iconElement: {
       type: String,

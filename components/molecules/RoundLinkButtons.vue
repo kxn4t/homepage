@@ -4,6 +4,7 @@
       v-for="(item, index) in items"
       :key="index"
       :link="item.link"
+      :rel="item.rel"
       :icon-class="item.iconClass"
       :icon-element="item.iconElement"
       :style="{ animationDelay: index * 100 + 200 + 'ms' }"
