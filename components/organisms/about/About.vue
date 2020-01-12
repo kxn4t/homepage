@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col md:flex-row items-center">
     <img
-      src="~/assets/images/icon.jpg"
+      src="images/icon.jpg"
       class="fade-in flex-shrink-0 w-56 h-56 mb-5 sm:mr-10 sm:mb-0 rounded-full bg-blue-200"
     />
 
