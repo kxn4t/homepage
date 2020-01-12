@@ -3,7 +3,9 @@
 </template>
 
 <script>
-import 'particles.js'
+if (process.browser) {
+  require('particles.js')
+}
 
 export default {
   props: {
