@@ -12,6 +12,8 @@
     </p>
     <a
       href="https://annict.jp/@kxn4t/watched"
+      target="_blank"
+      rel="noreferrer noopener"
       class="text-blue-500 hover:text-blue-600"
       >見たアニメ一覧</a
     >
