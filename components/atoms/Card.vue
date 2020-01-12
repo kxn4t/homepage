@@ -13,7 +13,13 @@
       <div class="p-3 h-auto sm:h-56">
         <!-- title -->
         <div class="mb-1 font-semibold text-lg sm:text-base lg:text-lg">
-          <a v-if="link" :href="link" class="text-blue-500 hover:text-blue-600">
+          <a
+            v-if="link"
+            :href="link"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="text-blue-500 hover:text-blue-600"
+          >
             {{ title }}
           </a>
           <span v-else>{{ title }}</span>
