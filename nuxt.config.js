@@ -21,7 +21,7 @@ export default {
       },
       { hid: 'og:site_name', property: 'og:site_name', content: 'かなめりぜ' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://kanameliser.met' },
+      { hid: 'og:url', property: 'og:url', content: 'https://kanameliser.net' },
       { hid: 'og:title', property: 'og:title', content: 'かなめりぜ' },
       {
         hid: 'og:description',
