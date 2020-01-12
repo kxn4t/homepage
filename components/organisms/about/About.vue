@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col md:flex-row items-center">
     <img
-      src="~/assets/images/icon.jpg"
-      class="fade-in flex-shrink-0 w-56 h-56 mb-5 sm:mr-10 sm:mb-0 rounded-full bg-blue-200"
+      v-lazy="icon"
+      class="flex-shrink-0 w-56 h-56 mb-5 sm:mr-10 sm:mb-0 rounded-full"
     />
 
     <div class="flex flex-col justify-around">
@@ -40,6 +40,7 @@ export default {
   },
   data() {
     return {
+      icon: require('~/assets/images/icon.jpg'),
       accounts: [
         {
           link: 'https://twitter.com/kxn4t',
