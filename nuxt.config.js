@@ -64,7 +64,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/lazyload'],
+  plugins: [{ src: '~/plugins/lazyload', mode: 'client' }],
   /*
    ** Nuxt.js dev-modules
    */
