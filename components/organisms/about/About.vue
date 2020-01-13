@@ -45,27 +45,32 @@ export default {
       accounts: [
         {
           link: 'https://twitter.com/kxn4t',
+          label: 'twitter account',
           iconClass: 'icon-twitter',
           iconElement: '<i class="fab fa-twitter"></i>'
         },
         {
           link: 'https://mastodon.kxn4t.tech/@kxn4t',
           rel: 'me',
+          label: 'mastodon account',
           iconClass: 'icon-mastodon',
           iconElement: '<i class="fab fa-mastodon"></i>'
         },
         {
           link: 'https://github.com/kxn4t',
+          label: 'github account',
           iconClass: 'icon-github',
           iconElement: '<i class="fab fa-github"></i>'
         },
         {
           link: 'https://qiita.com/kxn4t',
+          label: 'qiita account',
           iconClass: 'icon-qiita',
           iconElement: '<span class="font-ja font-bold">Q</span>'
         },
         {
           link: 'https://kxn4t.hatenablog.com/',
+          label: 'blog account',
           iconClass: 'icon-hatenablog',
           iconElement: '<i class="fas fa-blog"></i>'
         }

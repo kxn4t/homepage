@@ -7,8 +7,8 @@
       <img
         v-if="img != ''"
         :src="img"
+        :alt="imgAlt"
         class="h-32 w-full object-cover object-center"
-        alt="card image"
       />
       <div class="p-3 h-auto sm:h-56">
         <!-- title -->
@@ -18,14 +18,14 @@
             :href="link"
             target="_blank"
             rel="noreferrer noopener"
-            class="text-blue-500 hover:text-blue-600"
+            class="link"
           >
             {{ title }}
           </a>
           <span v-else>{{ title }}</span>
         </div>
         <!-- content -->
-        <div class="block text-gray-600 text-sm leading-relaxed">
+        <div class="block light-font-color text-sm leading-relaxed">
           {{ content }}
         </div>
         <!-- tags -->
@@ -57,6 +57,11 @@ export default {
     img: {
       type: String,
       default: '',
+      required: false
+    },
+    imgAlt: {
+      type: String,
+      default: 'cade image',
       required: false
     },
     title: {

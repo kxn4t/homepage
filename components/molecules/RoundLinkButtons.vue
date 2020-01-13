@@ -5,6 +5,7 @@
       :key="index"
       :link="item.link"
       :rel="item.rel"
+      :label="item.label"
       :icon-class="item.iconClass"
       :icon-element="item.iconElement"
       :style="{ animationDelay: index * 100 + 200 + 'ms' }"
