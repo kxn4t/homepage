@@ -95,4 +95,16 @@ export default {
     transform: rotate(360deg);
   }
 }
+
+/* safari */
+_::-webkit-full-page-media,
+_:future,
+:root .round-button-icon {
+  transition: 0.15s ease-out;
+}
+_::-webkit-full-page-media,
+_:future,
+:root .round-button:hover .round-button-icon {
+  transform: scale(1.5, 1.5);
+}
 </style>
