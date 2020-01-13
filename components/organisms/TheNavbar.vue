@@ -23,8 +23,8 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/more" class="nav-menu-item">
-            more
+          <nuxt-link to="/loves" class="nav-menu-item">
+            loves
           </nuxt-link>
         </li>
       </ul>

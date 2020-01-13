@@ -3,6 +3,7 @@
     <img
       v-lazy="icon"
       class="flex-shrink-0 w-56 h-56 mb-5 sm:mr-10 sm:mb-0 rounded-full"
+      alt="icon"
     />
 
     <div class="flex flex-col justify-around">

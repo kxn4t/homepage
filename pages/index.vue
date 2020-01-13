@@ -11,7 +11,12 @@
       </div>
     </div>
     <div>
-      <img class="children w-24 h-24" src="" style="opacity: 0;" />
+      <img
+        class="children w-24 h-24"
+        src=""
+        alt="main-chara-image"
+        style="opacity: 0;"
+      />
     </div>
   </div>
 </template>

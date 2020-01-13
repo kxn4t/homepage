@@ -1,9 +1,9 @@
 <template>
   <article>
-    <!-- more -->
+    <!-- loves -->
     <section class="w-full">
       <h1 class="section-header text-3xl my-5 sm:mt-5 sm:mb-8">
-        more
+        loves
       </h1>
       <p class="font-ja">好きなものとかについてもっと早口で語る。</p>
       <!-- boardgame -->
@@ -40,10 +40,10 @@
 
 <script>
 import Meta from '~/assets/mixins/meta'
-import BoardGames from '~/components/organisms/more/BoardGames'
-import Animes from '~/components/organisms/more/Animes'
-import Mangas from '~/components/organisms/more/Mangas'
-import Eriis from '~/components/organisms/more/Eriis'
+import BoardGames from '~/components/organisms/loves/BoardGames'
+import Animes from '~/components/organisms/loves/Animes'
+import Mangas from '~/components/organisms/loves/Mangas'
+import Eriis from '~/components/organisms/loves/Eriis'
 
 export default {
   components: {
@@ -56,11 +56,11 @@ export default {
   data() {
     return {
       meta: {
-        title: 'more',
+        title: 'loves',
         description:
           '好きなものとかについてもっと早口で語るページ - かなめりぜは、加藤かな (@kxn4t) が活動するサークルおよびWebサイトです。',
         type: 'article',
-        url: 'https://kanameliser.net/more'
+        url: 'https://kanameliser.net/loves'
       }
     }
   }

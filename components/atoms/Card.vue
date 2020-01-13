@@ -8,7 +8,7 @@
         v-if="img != ''"
         :src="img"
         class="h-32 w-full object-cover object-center"
-        alt=""
+        alt="card image"
       />
       <div class="p-3 h-auto sm:h-56">
         <!-- title -->
