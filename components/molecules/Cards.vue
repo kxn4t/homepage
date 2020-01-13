@@ -9,6 +9,7 @@
         <card
           :link="item.link"
           :img="item.img"
+          :imgAlt="item.imgAlt"
           :title="item.title"
           :content="item.content"
           :tags="item.tags"

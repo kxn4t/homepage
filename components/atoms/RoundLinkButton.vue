@@ -3,14 +3,17 @@
     <a
       :href="link"
       :rel="'noreferrer noopener ' + rel"
+      :aria-label="label"
       target="_blank"
       class="round-button-link"
+      tabindex="-1"
     >
       <span class="round-button-inner"></span>
     </a>
     <a
       :href="link"
       :rel="'noreferrer noopener ' + rel"
+      :aria-label="label"
       target="_blank"
       class="round-button-icon"
     >
@@ -31,6 +34,11 @@ export default {
       type: String,
       default: '',
       required: false
+    },
+    label: {
+      type: String,
+      default: 'link',
+      required: true
     },
     iconElement: {
       type: String,

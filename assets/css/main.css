@@ -40,6 +40,10 @@ html {
   color: var(--accent-color);
 }
 
+.light-font-color {
+  color: #375977;
+}
+
 @media screen and (min-width: 1024px) {
   main {
     width: 750px;
