@@ -9,7 +9,7 @@
     </section>
 
     <!-- more -->
-    <section class="mb-5 w-full">
+    <section class="w-full">
       <h1 class="section-header text-xl my-3 mt-10">
         more
       </h1>
