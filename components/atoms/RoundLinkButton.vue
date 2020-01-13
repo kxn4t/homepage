@@ -77,10 +77,10 @@ export default {
 .round-button-icon {
   position: relative;
   color: #1c3d5a;
-  transition: 0.35s ease-in-out;
+  transition: 0.15s ease-out;
 }
 .round-button:hover .round-button-icon {
-  transform: rotate3d(0, -1, 0, 360deg) scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
 }
 .round-button:hover .round-button-inner {
   border: 1px dashed var(--accent-color);
@@ -93,6 +93,16 @@ export default {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .round-button-icon {
+    transition: 0.35s ease-in-out;
+  }
+  .round-button:hover .round-button-icon {
+    transform: rotate3d(0, -1, 0, 360deg) scale(1.5, 1.5);
   }
 }
 </style>
