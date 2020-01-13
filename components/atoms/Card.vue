@@ -18,7 +18,7 @@
             :href="link"
             target="_blank"
             rel="noreferrer noopener"
-            class="text-blue-500 hover:text-blue-600"
+            class="link"
           >
             {{ title }}
           </a>

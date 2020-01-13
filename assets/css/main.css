@@ -44,6 +44,13 @@ html {
   color: #375977;
 }
 
+.link {
+  color: #0077DB;
+}
+.link:hover {
+  text-decoration: underline; 
+}
+
 @media screen and (min-width: 1024px) {
   main {
     width: 750px;
