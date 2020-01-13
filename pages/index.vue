@@ -14,7 +14,7 @@
       <img
         class="children w-24 h-24"
         src=""
-        alt="main-image"
+        alt="main-chara-image"
         style="opacity: 0;"
       />
     </div>
