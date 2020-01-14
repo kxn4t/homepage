@@ -32,7 +32,7 @@
         <h1 class="section-header text-xl my-4 mt-8">
           <i class="fas fa-music accent-font-color text-base"></i> Erii
         </h1>
-        <Eriis class="m-0 sm:m-2 sm:mb-0" />
+        <Eriis class="m-0 mb-5 sm:m-2 sm:mb-0" />
       </section>
     </section>
   </article>

@@ -1,5 +1,7 @@
 <template>
-  <section class="w-full flex flex-col md:flex-row justify-around items-center">
+  <section
+    class="w-full flex mb-5 sm:mb-0 flex-col md:flex-row justify-around items-center"
+  >
     <HeaderedList
       v-for="(item, index) in items"
       :key="index"
