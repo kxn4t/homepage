@@ -95,7 +95,7 @@ html {
 /* purgecss start ignore */
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.25s;
 }
 .page-enter,
 .page-leave-active {
