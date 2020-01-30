@@ -120,11 +120,11 @@
           :class="[isValid ? 'cursor-pointer' : 'cursor-not-allowed']"
           type="submit"
           class="
-            submit-button font-bold
+            submit-button font-bold tracking-widest
             w-full py-4 px-4 rounded-full shadow-lg
             focus:outline-none"
         >
-          <i class="fas fa-paper-plane"></i> 送信
+          <i class="fas fa-paper-plane"></i> 送 信
         </button>
       </div>
     </form>
