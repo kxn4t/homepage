@@ -8,7 +8,7 @@
       novalidate="true"
       netlify-honeypot="bot-field"
       data-netlify="true"
-      class="w-full mb-24 font-ja"
+      class="w-full mb-16 font-ja"
     >
       <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="bot-field" />
