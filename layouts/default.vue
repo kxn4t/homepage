@@ -14,6 +14,7 @@
       name="contact"
       netlify-honeypot="bot-field"
       data-netlify="true"
+      data-netlify-recaptcha="true"
       hidden
     >
       <input type="hidden" name="form-name" value="contact" />
@@ -21,6 +22,7 @@
       <input type="text" name="name" />
       <input type="text" name="email" />
       <textarea name="message"></textarea>
+      <div data-netlify-recaptcha="true" class="hidden"></div>
     </form>
   </div>
 </template>
