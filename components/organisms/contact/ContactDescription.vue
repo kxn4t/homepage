@@ -3,7 +3,7 @@
     <section class="mb-10 w-full">
       <h1 class="section-header text-xl my-4 mt-8">
         <i class="fas fa-comment accent-font-color text-base"></i>
-        お手伝いできるかもしれないこと
+        <span class="font-ja">お手伝いできるかもしれないこと</span>
       </h1>
       <div class="font-ja">
         <p class="mb-6">
