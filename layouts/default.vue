@@ -9,6 +9,19 @@
         <nuxt />
       </main>
     </div>
+    <!-- for contact / a little help for the Netlify bots -->
+    <form
+      name="contact"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="text" name="email" />
+      <textarea name="message"></textarea>
+    </form>
   </div>
 </template>
 

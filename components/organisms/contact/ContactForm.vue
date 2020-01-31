@@ -8,7 +8,6 @@
       novalidate="true"
       netlify-honeypot="bot-field"
       data-netlify="true"
-      data-netlify-recaptcha="true"
       class="w-full mb-24"
     >
       <input type="hidden" name="form-name" value="contact" />
@@ -114,7 +113,6 @@
         </div>
       </div>
 
-      <div data-netlify-recaptcha="true"></div>
       <div class="flex items-center w-full mt-2">
         <button
           :disabled="!isValid"
