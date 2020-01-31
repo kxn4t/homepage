@@ -23,8 +23,13 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/loves" class="nav-menu-item">
+          <nuxt-link to="/loves" class="nav-menu-item mr-2 sm:mr-5">
             loves
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/contact" class="nav-menu-item">
+            contact
           </nuxt-link>
         </li>
       </ul>
