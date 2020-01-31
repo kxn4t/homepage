@@ -9,7 +9,7 @@
       netlify-honeypot="bot-field"
       data-netlify="true"
       data-netlify-recaptcha="true"
-      class="w-full mt-12 mb-24"
+      class="w-full mb-24"
     >
       <input type="hidden" name="bot-field" />
       <div class="flex flex-wrap -mx-3">
@@ -117,11 +117,11 @@
       <div class="flex items-center w-full mt-2">
         <button
           :disabled="!isValid"
-          :class="[isValid ? 'cursor-pointer' : 'cursor-not-allowed']"
+          :class="[isValid ? 'cursor-pointer shadow-lg' : 'cursor-not-allowed']"
           type="submit"
           class="
             submit-button font-bold tracking-widest
-            w-full py-4 px-4 rounded-full shadow-lg
+            w-full py-4 px-4 rounded-full
             focus:outline-none"
         >
           <i class="fas fa-paper-plane"></i> 送 信

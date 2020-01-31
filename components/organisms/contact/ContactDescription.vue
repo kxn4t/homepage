@@ -10,15 +10,15 @@
           土日しか稼働できないため、大きなものや短納期なものは難しいです。
         </p>
         <ul class="list-disc list-inside">
+          <li>
+            プロジェクト管理ツール導入による業務改善<br />色々お役に立てると思います
+          </li>
           <li>Spring Frameworkを用いたサーバーサイドの開発</li>
           <li>
             Vue.js/Nuxt.jsを用いたフロントエンドの開発<br />これは全然自信がないです
           </li>
           <li>このサイトのような簡単なホームページ製作</li>
           <li>Mastodonサーバーの構築</li>
-          <li>
-            プロジェクト管理ツールを用いた業務改善<br />未導入であればより色々お役に立てると思います
-          </li>
           <li>
             なにか作りたいけどどうすればいいか分からない、などへのアドバイス
           </li>
@@ -62,7 +62,7 @@ export default {
           list: ['Java', 'Kotlin', 'Vue.js']
         },
         {
-          header: '使用ツール',
+          header: '業務ツール',
           headerIconClasses: ['fas', 'fa-tasks'],
           list: ['Backlog', 'Cacoo', 'Typetalk']
         }
