@@ -22,7 +22,6 @@
       <input type="text" name="name" />
       <input type="text" name="email" />
       <textarea name="message"></textarea>
-      <div data-netlify-recaptcha="true"></div>
     </form>
   </div>
 </template>
