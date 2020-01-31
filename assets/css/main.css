@@ -45,10 +45,10 @@ html {
 }
 
 .link {
-  color: #0077DB;
+  color: #0077db;
 }
 .link:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
@@ -92,14 +92,17 @@ html {
 }
 
 /* page */
+/* purgecss start ignore */
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 0.25s;
 }
 .page-enter,
 .page-leave-active {
   opacity: 0;
 }
+/* purgecss end ignore */
+
 /* fade in */
 @keyframes fade-in {
   0% {

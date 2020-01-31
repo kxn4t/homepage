@@ -1,5 +1,6 @@
 <template>
   <div :style="style" class="min-h-screen min-w-full">
+    <Background :colors="colors" />
     <TheNavbar />
     <div
       class="container mx-auto px-5 lg:px-24 xl:px-32 text-base tracking-wide"
@@ -8,7 +9,6 @@
         <nuxt />
       </main>
     </div>
-    <Background :colors="colors" />
     <!-- for contact / a little help for the Netlify bots -->
     <form
       name="contact"
