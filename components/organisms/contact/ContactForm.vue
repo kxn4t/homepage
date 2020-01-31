@@ -11,6 +11,7 @@
       data-netlify-recaptcha="true"
       class="w-full mb-24"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="bot-field" />
       <div class="flex flex-wrap -mx-3">
         <div class="w-full px-3">
