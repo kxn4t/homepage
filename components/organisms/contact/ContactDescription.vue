@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="mb-5 w-full">
+    <section class="mb-10 w-full">
       <h1 class="section-header text-xl my-4 mt-8">
         <i class="fas fa-comment accent-font-color text-base"></i>
         お手伝いできるかもしれないこと
@@ -25,7 +25,7 @@
         </ul>
       </div>
     </section>
-    <section class="mb-5 w-full">
+    <section class="mb-10 sm:mb-0 w-full">
       <section
         class="w-full flex flex-col md:flex-row justify-around items-center"
       >
