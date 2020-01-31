@@ -9,6 +9,18 @@
       </main>
     </div>
     <Background :colors="colors" />
+    <!-- for contact / a little help for the Netlify bots -->
+    <form
+      name="contact"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      data-netlify-recaptcha="true"
+      hidden
+    >
+      <input type="text" name="name" />
+      <input type="text" name="email" />
+      <textarea name="message"></textarea>
+    </form>
   </div>
 </template>
 
