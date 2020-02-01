@@ -14,22 +14,26 @@
       <ul class="flex justify-end items-center">
         <li>
           <nuxt-link to="/" exact class="nav-menu-item mr-2 sm:mr-5">
-            home
+            <span class="sm:hidden"><i class="fas fa-home"></i></span>
+            <span class="hidden sm:inline-block">home</span>
           </nuxt-link>
         </li>
         <li>
           <nuxt-link to="/about" class="nav-menu-item mr-2 sm:mr-5">
-            about
+            <span class="sm:hidden"><i class="fas fa-user-circle"></i></span>
+            <span class="hidden sm:inline-block">about</span>
           </nuxt-link>
         </li>
         <li>
           <nuxt-link to="/loves" class="nav-menu-item mr-2 sm:mr-5">
-            loves
+            <span class="sm:hidden"><i class="fas fa-heart"></i></span>
+            <span class="hidden sm:inline-block">loves</span>
           </nuxt-link>
         </li>
         <li>
           <nuxt-link to="/contact" class="nav-menu-item">
-            contact
+            <span class="sm:hidden"><i class="fas fa-envelope"></i></span>
+            <span class="hidden sm:inline-block">contact</span>
           </nuxt-link>
         </li>
       </ul>
