@@ -60,13 +60,13 @@ export default {
 .nav-back {
   transition: 0.7s;
   background-color: rgba(255, 255, 255, 0.7);
+  background-color: var(--header-bg-mask);
 }
 .nav-logo {
   display: inline-block;
   text-align: center;
   transition: 0.5s;
   text-decoration: none;
-  color: #1c3d5a;
   padding: 8px 15px;
   width: 80px;
 }
@@ -76,7 +76,6 @@ export default {
   text-align: center;
   transition: 0.5s;
   text-decoration: none;
-  color: #1c3d5a;
   padding: 8px 15px;
 }
 .nav-menu-item:not(.nuxt-link-active)::after {
@@ -97,5 +96,6 @@ export default {
 .nav-menu-item.nuxt-link-active {
   transition: 0s;
   border-bottom: #1c3d5a 2px solid;
+  border-bottom: var(--main-text) 2px solid;
 }
 </style>

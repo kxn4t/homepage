@@ -76,7 +76,9 @@ export default {
 .round-button-inner {
   position: absolute;
   border: 1px solid #1c3d5a;
+  border: 1px solid var(--main-text);
   background-color: #fff;
+  background-color: var(--main-bg);
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -85,12 +87,14 @@ export default {
 .round-button-icon {
   position: relative;
   color: #1c3d5a;
+  color: var(--main-text);
   transition: 0.15s ease-out;
 }
 .round-button:hover .round-button-icon {
   transform: scale(1.5, 1.5);
 }
 .round-button:hover .round-button-inner {
+  border: 1px dashed #e25b45;
   border: 1px dashed var(--accent-color);
   transform: scale(1.4);
 }

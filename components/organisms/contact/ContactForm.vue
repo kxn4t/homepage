@@ -22,8 +22,8 @@
             v-model="name"
             :class="[
               nameErrors.length
-                ? 'bg-red-100 border-2 border-red-600 focus:border-red-600'
-                : 'border border-gray-200 focus:border-gray-500'
+                ? 'input-error-bg border-2 input-error-border'
+                : 'border input-border'
             ]"
             :maxlength="nameMaxlength"
             type="text"
@@ -31,9 +31,9 @@
             placeholder="加藤かな"
             class="
               appearance-none block w-full
-              bg-gray-200 rounded
+              input-bg rounded
               py-3 px-4 mb-3 leading-tight
-              focus:outline-none focus:bg-white"
+              focus:outline-none"
           />
           <div class="text-red-600 text-xs font-bold h-8">
             <ul v-if="nameErrors.length">
@@ -55,8 +55,8 @@
             v-model="email"
             :class="[
               emailErrors.length
-                ? 'bg-red-100 border-2 border-red-600 focus:border-red-600'
-                : 'border border-gray-200 focus:border-gray-500'
+                ? 'input-error-bg border-2 input-error-border'
+                : 'border input-border'
             ]"
             :maxlength="emailMaxlength"
             type="text"
@@ -64,9 +64,9 @@
             placeholder="kana@example.com"
             class="
               appearance-none block w-full
-              bg-gray-200 rounded
+              input-bg rounded
               py-3 px-4 mb-3 leading-tight
-              focus:outline-none focus:bg-white"
+              focus:outline-none"
           />
           <div class="text-red-600 text-xs font-bold h-8">
             <ul v-if="emailErrors.length">
@@ -91,17 +91,17 @@
             v-model="message"
             :class="[
               messageErrors.length
-                ? 'bg-red-100 border-2 border-red-600 focus:border-red-600'
-                : 'border border-gray-200 focus:border-gray-500'
+                ? 'input-error-bg border-2 input-error-border'
+                : 'border input-border'
             ]"
             :maxlength="messageMaxlength"
             name="message"
             placeholder="依頼内容やご意見など"
             class="
               resize-y appearance-none block w-full
-              bg-gray-200 rounded
+              input-bg rounded
               py-3 px-4 mb-3 h-48 leading-tight
-              focus:outline-none focus:bg-white"
+              focus:outline-none"
           ></textarea>
           <div class="text-red-600 text-xs font-bold h-8">
             <ul v-if="messageErrors.length">
@@ -238,18 +238,53 @@ export default {
 
 <style scoped>
 .submit-button {
+  color: #e25b45;
   color: var(--accent-color);
   background-color: #fff;
+  background-color: var(--main-bg);
+  border: 1px #e25b45 solid;
   border: 1px var(--accent-color) solid;
 }
 .submit-button:hover:not([disabled]) {
   transition: all 0.25s ease;
+  background-color: #e25b45;
   background-color: var(--accent-color);
   color: #fff;
 }
 .submit-button:disabled {
   color: #4a5568;
+  color: var(--button-disabled);
   background-color: #fff;
+  background-color: var(--main-bg);
   border: 1px #4a5568 solid;
+  border: 1px var(--button-disabled) solid;
+}
+.input-bg {
+  background-color: #edf2f7;
+  background-color: var(--input-bg);
+}
+.input-bg:focus {
+  background-color: #fff;
+  background-color: var(--input-bg-focus);
+}
+.input-border {
+  border-color: #edf2f7;
+  border-color: var(--input-border);
+}
+.input-border:focus {
+  border-color: #a0aec0;
+  border-color: var(--input-border-focus);
+}
+.input-error-bg {
+  background-color: #fff5f5;
+  background-color: var(--input-error-bg);
+}
+.input-error-border {
+  border-color: #e53e3e;
+  border-color: var(--input-error-border);
+}
+.input-error-border:focus {
+  border-color: #e53e3e;
+  border-color: var(--input-error-border);
 }
 </style>
