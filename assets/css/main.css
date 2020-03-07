@@ -1,3 +1,45 @@
+/* darkmode */
+:root {
+  --main-text: #1c3d5a;
+  --sub-text: #375977;
+  --tag-text: #4a5568;
+  --tag-bg: #e2e8f0;
+  --main-bg: #fff;
+  --header-bg-mask: rgba(255, 255, 255, 0.7);
+  --link: #0077db;
+  --border-color: #edf2f7;
+  --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --button-disabled: #4a5568;
+  --input-bg: #edf2f7;
+  --input-bg-focus: #fff;
+  --input-border: #edf2f7;
+  --input-border-focus: #a0aec0;
+  --input-error: #e53e3e;
+  --input-error-bg: #fff5f5;
+  --input-error-border: #e53e3e;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: #f4f4f4;
+    --sub-text: #b3b3b3;
+    --tag-text: #f4f4f4;
+    --tag-bg: #47443f;
+    --main-bg: #3b3535;
+    --header-bg-mask: rgba(59, 53, 53, 0.7);
+    --link: #0077db;
+    --border-color: #6e6e6e;
+    --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --button-disabled: #979797;
+    --input-bg: #2d2828;
+    --input-bg-focus: #2d2828;
+    --input-border: #6e6e6e;
+    --input-border-focus: #1da1f2;
+    --input-error: #b44040;
+    --input-error-bg: #2d2828;
+    --input-error-border: #b44040;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +55,9 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans',
     'Hiragino Kaku Gothic ProN', 'Meiryo', Roboto, 'Helvetica Neue', sans-serif;
   color: #1c3d5a;
+  color: var(--main-text);
+  background-color: #fff;
+  background-color: var(--main-bg);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -22,6 +67,7 @@ html {
 
 .bg-white-mask {
   background-color: rgba(255, 255, 255, 0.7);
+  background-color: var(--header-bg-mask);
 }
 
 .font-ja {
@@ -37,15 +83,18 @@ html {
 }
 
 .accent-font-color {
+  color: #e25b45;
   color: var(--accent-color);
 }
 
 .light-font-color {
   color: #375977;
+  color: var(--sub-text);
 }
 
 .link {
   color: #0077db;
+  color: var(--link);
 }
 .link:hover {
   text-decoration: underline;
@@ -76,6 +125,7 @@ html {
   content: '';
   display: block;
   background: #1c3d5a;
+  background: var(--main-text);
   width: 18px;
   height: 2px;
   margin-top: 0.2em;
@@ -83,12 +133,20 @@ html {
 
 .article-header::first-letter,
 .section-header::first-letter {
+  color: #e25b45;
   color: var(--accent-color);
 }
 
 .section-header-sub {
   text-align: center;
+  border-bottom: #e25b45 1px solid;
   border-bottom: var(--accent-color) 1px solid;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--box-shadow-lg);
 }
 
 /* page */
