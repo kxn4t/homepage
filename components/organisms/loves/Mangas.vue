@@ -30,7 +30,7 @@ export default {
             'https://www.amazon.co.jp/gp/product/B07N3NRSKF/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07N3NRSKF&linkCode=as2&tag=midway00-22&linkId=03a8963d62d64b10d5d1cdfccae1399a',
           title: 'ぼっち・ざ・ろっく！',
           content:
-            'いいいいいイキってすみません…。ここ数年で一番笑った漫画。最高に面白い。好きでしかない。素材が豊富でLINEスタンプも最高に使い勝手がいい。陰キャなのでロックをやりたいと思います。(既刊1巻)',
+            'いいいいいイキってすみません…。ここ数年で一番笑った漫画。最高に面白い。好きでしかない。素材が豊富でLINEスタンプも最高に使い勝手がいい。陰キャなのでロックをやりたいと思います。(既刊2巻)',
           tags: []
         },
         {
@@ -57,7 +57,7 @@ export default {
             'https://www.amazon.co.jp/gp/product/4065162238/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4065162238&linkCode=as2&tag=midway00-22&linkId=f6818fdad8ed982a3ff6678719064245',
           title: '可愛いだけじゃない式守さん',
           content:
-            '式守さんは可愛くて優しくてそして強いイケメン彼女だけど、和泉くんのふとした行動でとたんに可愛いギャップにニヤニヤが止まらない…。(既刊3巻)',
+            '式守さんは可愛くて優しくてそして強いイケメン彼女だけど、和泉くんのふとした行動でとたんに可愛いギャップにニヤニヤが止まらない…。(既刊4巻)',
           tags: []
         },
         {
