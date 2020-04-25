@@ -10,6 +10,8 @@
   --border-color: #edf2f7;
   --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --button-disabled: #4a5568;
+  --table-border-color: #1c3d5a;
+  --table-sub-border-color: #a0aec0;
   --input-bg: #edf2f7;
   --input-bg-focus: #fff;
   --input-border: #edf2f7;
@@ -30,6 +32,8 @@
     --border-color: #6e6e6e;
     --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --button-disabled: #979797;
+    --table-border-color: #b3b3b3;
+    --table-sub-border-color: #6e6e6e;
     --input-bg: #2d2828;
     --input-bg-focus: #2d2828;
     --input-border: #6e6e6e;
@@ -147,6 +151,18 @@ html {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   box-shadow: var(--box-shadow-lg);
+}
+
+table thead tr th {
+  text-align: center;
+  border-bottom: #1c3d5a 2px solid;
+  border-bottom: var(--table-border-color) 2px solid;
+}
+
+table tbody tr {
+  text-align: center;
+  border-bottom: #a0aec0 1px solid;
+  border-bottom: var(--table-sub-border-color) 1px solid;
 }
 
 /* page */

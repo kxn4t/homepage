@@ -3,6 +3,9 @@
     <p>
       色々ボードゲームやってきたけど、好みなのはワーカープレイスメントとか拡大再生産とかちょっと重めのやつかも。
     </p>
+    <nuxt-link to="/boardgame/list" class="link block pt-2">
+      持っているボードゲーム一覧
+    </nuxt-link>
     <Cards :items="items" />
     <p>
       他にも、カタン、海底探検、タイムボム、スペースアラート、AZUL、カルカソンヌとかも好き。
