@@ -14,7 +14,7 @@
       href="https://annict.jp/@kxn4t/watched"
       target="_blank"
       rel="noreferrer noopener"
-      class="link"
+      class="link block pt-2"
       >見たアニメ一覧</a
     >
   </div>
