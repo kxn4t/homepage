@@ -31,7 +31,7 @@ export default {
         {
           img: '',
           link: 'https://youtu.be/WjfQ-sDBbGQ',
-          title: 'a litle litle thing',
+          title: 'a little little thing',
           content:
             'りるりるはかわいい。かわいい。サビのダンス部分が妙にくせになる。個人的にはちゅるちゅるちゅちゅちゅを想起してしまう。',
           tags: []
