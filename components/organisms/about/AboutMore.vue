@@ -35,7 +35,7 @@ export default {
         {
           header: '言語',
           headerIconClasses: ['fas', 'fa-laptop-code'],
-          list: ['Java', 'kotlin', 'PHP']
+          list: ['Java', 'kotlin']
         }
       ]
     }

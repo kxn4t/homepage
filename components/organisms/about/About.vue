@@ -11,7 +11,7 @@
         加藤かな<span class="font-ubuntu text-sm ml-3">( kana@kxn4t )</span>
       </div>
       <div class="font-ja">
-        <p>都内在住の美少女エンジニア。</p>
+        <p>関東在住の美少女エンジニア。</p>
         <p>
           プログラムを書くよりも機能の設計などが得意で、最近はプロダクトオーナーとして色々やってる。
         </p>
