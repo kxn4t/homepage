@@ -1,10 +1,8 @@
 <template>
   <div class="flex flex-col md:flex-row items-center">
-    <img
-      v-lazy="icon"
-      class="flex-shrink-0 w-56 h-56 mb-5 sm:mr-10 sm:mb-0 rounded-full"
-      alt="icon"
-    />
+    <div class="super-ellipse mb-5 sm:mr-10 sm:mb-0">
+      <img v-lazy="icon" class="flex-shrink-0" alt="icon" />
+    </div>
 
     <div class="flex flex-col justify-around">
       <div class="font-ja font-semibold text-xl my-1">
@@ -79,3 +77,16 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.super-ellipse {
+  transform: rotate(-19deg);
+  border-radius: 43% 57% 43% 57% / 57% 43% 57% 43%;
+  overflow: hidden;
+}
+.super-ellipse img {
+  width: 100%;
+  height: 100%;
+  transform: rotate(19deg);
+}
+</style>
