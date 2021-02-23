@@ -9,7 +9,11 @@
 
     <Cards :items="items" />
     <p>
-      他に最近だと、僕の心のヤバイやつ、僕と君の大切な話、薬屋のひとりごと、乙女怪獣キャラメリゼとかも好き。
+      他に最近だと、僕の心のヤバイやつ、2.5次元の誘惑、ランウェイで笑って、カッコウの許嫁、久保さんは僕を許さない、
+      薬屋のひとりごと、珈琲をしづかに、葬送のフリーレンとかも好き。
+    </p>
+    <p>
+      異世界転生もの読みすぎてどれがどれだったかわからなくなってきてる。
     </p>
   </div>
 </template>
@@ -30,7 +34,7 @@ export default {
             'https://www.amazon.co.jp/gp/product/B07N3NRSKF/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07N3NRSKF&linkCode=as2&tag=midway00-22&linkId=03a8963d62d64b10d5d1cdfccae1399a',
           title: 'ぼっち・ざ・ろっく！',
           content:
-            'いいいいいイキってすみません…。ここ数年で一番笑った漫画。最高に面白い。好きでしかない。素材が豊富でLINEスタンプも最高に使い勝手がいい。陰キャなのでロックをやりたいと思います。(既刊2巻)',
+            'いいいいいイキってすみません…。ここ数年で一番笑った漫画。最高に面白い。好きでしかない。素材が豊富でLINEスタンプも最高に使い勝手がいい。陰キャなのでロックをやりたいと思います。アニメ化おめでとう！！(既刊3巻)',
           tags: []
         },
         {
@@ -48,7 +52,7 @@ export default {
             'https://www.amazon.co.jp/gp/product/4757559208/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4757559208&linkCode=as2&tag=midway00-22&linkId=5a9d9ce0147e7e7f6d76642abcd06d8c',
           title: 'その着せ替え人形は恋をする',
           content:
-            '恋心に気づいてからのイチャイチャ加減がたまらない一品。ギャルという見た目に反して好きなものに対してとことん真剣な喜多川さんが美少女すぎてつらい。。。(既刊4巻)',
+            '恋心に気づいてからのイチャイチャ加減がたまらない一品。ギャルという見た目に反して好きなものに対してとことん真剣な喜多川さんが美少女すぎてつらい。。。(既刊6巻)',
           tags: []
         },
         {
@@ -57,7 +61,7 @@ export default {
             'https://www.amazon.co.jp/gp/product/4065162238/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4065162238&linkCode=as2&tag=midway00-22&linkId=f6818fdad8ed982a3ff6678719064245',
           title: '可愛いだけじゃない式守さん',
           content:
-            '式守さんは可愛くて優しくてそして強いイケメン彼女だけど、和泉くんのふとした行動でとたんに可愛いギャップにニヤニヤが止まらない…。(既刊4巻)',
+            '式守さんは可愛くて優しくてそして強いイケメン彼女だけど、和泉くんのふとした行動でとたんに可愛いギャップにニヤニヤが止まらない…。(既刊7巻)',
           tags: []
         },
         {
@@ -66,7 +70,7 @@ export default {
             'https://www.amazon.co.jp/gp/product/B07FSM2K3F/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07FSM2K3F&linkCode=as2&tag=midway00-22&linkId=1008a2d05c8d03f7ad8cf4c788991adc',
           title: '未熟なふたりでございますが',
           content:
-            'お互い未経験でそのまま新婚生活が始まってしまった話。とにかくピュアなイチャイチャが堪能できて眼福。テレ顔がものすごく可愛くてたまらない…。(既刊5巻)',
+            'お互い未経験でそのまま新婚生活が始まってしまった話。とにかくピュアなイチャイチャが堪能できて眼福。テレ顔がものすごく可愛くてたまらない…。(既刊8巻)',
           tags: []
         },
         {
