@@ -7,7 +7,7 @@ export default {
     titleTemplate: '%s - かなめりぜ',
     htmlAttrs: {
       lang: 'ja',
-      prefix: 'og: http://ogp.me/ns#'
+      prefix: 'og: http://ogp.me/ns#',
     },
     meta: [
       { charset: 'utf-8' },
@@ -17,7 +17,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'かなめりぜは、加藤かな (@kxn4t) が活動するサークルおよびWebサイトです。'
+          'かなめりぜは、加藤かな (@kxn4t) が活動するサークルおよびWebサイトです。',
       },
       { hid: 'og:site_name', property: 'og:site_name', content: 'かなめりぜ' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
@@ -27,28 +27,28 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'かなめりぜは、加藤かな (@kxn4t) が活動するサークルおよびWebサイトです。'
+          'かなめりぜは、加藤かな (@kxn4t) が活動するサークルおよびWebサイトです。',
       },
       {
         hid: 'og:image',
         property: 'og:image',
         // TODO: add image
-        content: 'https://example.com/img/ogp/common.jpg'
+        content: 'https://example.com/img/ogp/common.jpg',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:site', content: '@kxn4t' }
+      { name: 'twitter:site', content: '@kxn4t' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c'
+        href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c',
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Ubuntu&display=swap'
-      }
-    ]
+        href: 'https://fonts.googleapis.com/css?family=Ubuntu&display=swap',
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -59,7 +59,7 @@ export default {
    */
   css: [
     '~/assets/css/main.css',
-    '@fortawesome/fontawesome-free/css/all.min.css'
+    '@fortawesome/fontawesome-free/css/all.min.css',
   ],
   /*
    ** Plugins to load before mounting the App
@@ -77,9 +77,9 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-156275543-1'
-      }
-    ]
+        id: 'UA-156275543-1',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
@@ -88,7 +88,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://pwa.nuxtjs.org/setup.html
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
   ],
   /*
    ** Axios module configuration
@@ -102,6 +102,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
+    extend(config, ctx) {},
+  },
 }

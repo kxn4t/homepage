@@ -2,13 +2,13 @@
   <div>
     <form
       id="contactForm"
-      @submit="checkForm"
-      name="contact"
       method="post"
       novalidate="true"
       netlify-honeypot="bot-field"
+      name="contact"
       data-netlify="true"
       class="w-full mb-16 font-ja"
+      @submit="checkForm"
     >
       <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="bot-field" />
@@ -23,17 +23,13 @@
             :class="[
               nameErrors.length
                 ? 'input-error-bg border-2 input-error-border'
-                : 'border input-border'
+                : 'border input-border',
             ]"
             :maxlength="nameMaxlength"
             type="text"
             name="name"
             placeholder="加藤かな"
-            class="
-              appearance-none block w-full
-              input-bg rounded
-              py-3 px-4 mb-3 leading-tight
-              focus:outline-none"
+            class="appearance-none block w-full input-bg rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
           />
           <div class="text-red-600 text-xs font-bold h-8">
             <ul v-if="nameErrors.length">
@@ -56,17 +52,13 @@
             :class="[
               emailErrors.length
                 ? 'input-error-bg border-2 input-error-border'
-                : 'border input-border'
+                : 'border input-border',
             ]"
             :maxlength="emailMaxlength"
             type="text"
             name="email"
             placeholder="kana@example.com"
-            class="
-              appearance-none block w-full
-              input-bg rounded
-              py-3 px-4 mb-3 leading-tight
-              focus:outline-none"
+            class="appearance-none block w-full input-bg rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
           />
           <div class="text-red-600 text-xs font-bold h-8">
             <ul v-if="emailErrors.length">
@@ -92,16 +84,12 @@
             :class="[
               messageErrors.length
                 ? 'input-error-bg border-2 input-error-border'
-                : 'border input-border'
+                : 'border input-border',
             ]"
             :maxlength="messageMaxlength"
             name="message"
             placeholder="依頼内容やご意見など"
-            class="
-              resize-y appearance-none block w-full
-              input-bg rounded
-              py-3 px-4 mb-3 h-48 leading-tight
-              focus:outline-none"
+            class="resize-y appearance-none block w-full input-bg rounded py-3 px-4 mb-3 h-48 leading-tight focus:outline-none"
           ></textarea>
           <div class="text-red-600 text-xs font-bold h-8">
             <ul v-if="messageErrors.length">
@@ -118,10 +106,7 @@
           :disabled="!isValid"
           :class="[isValid ? 'cursor-pointer shadow-lg' : 'cursor-not-allowed']"
           type="submit"
-          class="
-            submit-button font-bold tracking-widest
-            w-full py-4 px-4 rounded-full
-            focus:outline-none"
+          class="submit-button font-bold tracking-widest w-full py-4 px-4 rounded-full focus:outline-none"
         >
           <i class="fas fa-paper-plane"></i> 送 信
         </button>
@@ -147,7 +132,7 @@ export default {
       messageErrors: [],
       nameMaxlength: _nameMaxlength,
       emailMaxlength: _emailMaxlength,
-      messageMaxlength: _messageMaxlength
+      messageMaxlength: _messageMaxlength,
     }
   },
   computed: {
@@ -160,7 +145,7 @@ export default {
         this.message &&
         !this.messageErrors.length > 0
       )
-    }
+    },
   },
   watch: {
     name() {
@@ -171,7 +156,7 @@ export default {
     },
     message() {
       this.validateMessage()
-    }
+    },
   },
   methods: {
     checkForm(e) {
@@ -231,8 +216,8 @@ export default {
         return false
       }
       return true
-    }
-  }
+    },
+  },
 }
 </script>
 

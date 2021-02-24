@@ -52,34 +52,34 @@ export default {
     link: {
       type: String,
       default: '',
-      required: false
+      required: false,
     },
     img: {
       type: String,
       default: '',
-      required: false
+      required: false,
     },
     imgAlt: {
       type: String,
       default: 'cade image',
-      required: false
+      required: false,
     },
     title: {
       type: String,
       default: 'title',
-      required: true
+      required: true,
     },
     content: {
       type: String,
       default: 'content',
-      required: true
+      required: true,
     },
     tags: {
       type: Array,
       default: () => ['tag1', 'tag2'],
-      required: false
-    }
-  }
+      required: false,
+    },
+  },
 }
 </script>
 

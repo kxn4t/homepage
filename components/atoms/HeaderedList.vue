@@ -25,19 +25,19 @@ export default {
     header: {
       type: String,
       default: 'header',
-      required: true
+      required: true,
     },
     headerIconClasses: {
       type: Array,
       default: () => [],
-      requierd: false
+      requierd: false,
     },
     list: {
       type: Array,
       default: () => [],
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

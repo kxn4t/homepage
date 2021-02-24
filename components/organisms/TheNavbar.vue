@@ -1,10 +1,7 @@
 <template>
   <nav class="sticky top-0 z-10">
     <div
-      class="container
-            flex items-center justify-between
-            mx-auto px-5 lg:px-24 xl:px-32 pt-5 pb-2
-            text-base tracking-wide font-semibold"
+      class="container flex items-center justify-between mx-auto px-5 lg:px-24 xl:px-32 pt-5 pb-2 text-base tracking-wide font-semibold"
     >
       <div class="font-ja">
         <!-- <nuxt-link to="/" exact class="nav-logo">
@@ -52,7 +49,7 @@ export default {
         this.$el.classList.remove('nav-back')
       }
     })
-  }
+  },
 }
 </script>
 

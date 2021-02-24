@@ -2,9 +2,7 @@
   <article>
     <!-- loves -->
     <section class="w-full">
-      <h1 class="section-header text-3xl my-5 sm:mt-5 sm:mb-8">
-        loves
-      </h1>
+      <h1 class="section-header text-3xl my-5 sm:mt-5 sm:mb-8">loves</h1>
       <p class="font-ja">好きなものとかについてもっと早口で語る。</p>
       <!-- boardgame -->
       <section class="mb-5 w-full">
@@ -50,7 +48,7 @@ export default {
     BoardGames,
     Animes,
     Mangas,
-    Eriis
+    Eriis,
   },
   mixins: [Meta],
   data() {
@@ -60,9 +58,9 @@ export default {
         description:
           '好きなものとかについてもっと早口で語るページ - かなめりぜは、加藤かな (@kxn4t) が活動するサークルおよびWebサイトです。',
         type: 'article',
-        url: 'https://kanameliser.net/loves'
-      }
+        url: 'https://kanameliser.net/loves',
+      },
     }
-  }
+  },
 }
 </script>

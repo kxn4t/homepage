@@ -19,15 +19,15 @@ import RoundLinkButton from '~/components/atoms/RoundLinkButton'
 
 export default {
   components: {
-    RoundLinkButton
+    RoundLinkButton,
   },
   props: {
     items: {
       type: Array,
       require: false,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 }
 </script>
 
