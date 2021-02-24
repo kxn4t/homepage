@@ -12,8 +12,8 @@ export default {
     colors: {
       type: Array,
       require: false,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   mounted() {
     // https://github.com/VincentGarreau/particles.js/
@@ -28,12 +28,12 @@ export default {
             // シェイプ表示間隔設定
             enable: true,
             // シェイプ表示間隔指定
-            value_area: 600
-          }
+            value_area: 600,
+          },
         },
         // シェイプ色
         color: {
-          value: this.colors
+          value: this.colors,
         },
 
         // シェイプの設定
@@ -46,13 +46,13 @@ export default {
             // ボーダー幅
             width: 0,
             // ボーダー色
-            color: '#000000'
+            color: '#000000',
           },
 
           // シェイプの形でpolygonを指定した場合
           polygon: {
             // ポリゴン角数指定
-            nb_sides: 5
+            nb_sides: 5,
           },
 
           // シェイプの形でimageを指定した場合
@@ -62,8 +62,8 @@ export default {
             // 画像幅
             width: 100,
             // 画像高
-            height: 100
-          }
+            height: 100,
+          },
         },
 
         // シェイプ透過率指定
@@ -82,8 +82,8 @@ export default {
             // アニメーション最小透過率
             opacity_min: 0.1,
             // アニメーション同期
-            sync: false
-          }
+            sync: false,
+          },
         },
 
         // シェイプサイズ
@@ -101,8 +101,8 @@ export default {
             // アニメーション最小サイズ,
             size_min: 15,
             // アニメーション同期設定
-            sync: false
-          }
+            sync: false,
+          },
         },
 
         // シェイプを線で繋ぐか
@@ -116,7 +116,7 @@ export default {
           // 線の透過率
           opacity: 0.4,
           // 線の幅
-          width: 1
+          width: 1,
         },
 
         // シェイプの動き
@@ -137,9 +137,9 @@ export default {
           attract: {
             enable: false,
             rotateX: 1000,
-            rotateY: 1000
-          }
-        }
+            rotateY: 1000,
+          },
+        },
       },
 
       // インタラクティブ設定
@@ -151,7 +151,7 @@ export default {
           // マウスオーバー時
           onhover: {
             enable: false,
-            mode: 'repulse' // grad:付近のシェイプと線を繋ぐ, bubble:拡大, repulse:反発
+            mode: 'repulse', // grad:付近のシェイプと線を繋ぐ, bubble:拡大, repulse:反発
           },
 
           // クリック時
@@ -159,9 +159,9 @@ export default {
             // クリック時の処理
             enable: false,
             // クリック時の処理
-            mode: 'repulse' // push:追加, remove:削除, bubble:拡大, repulse:反発
+            mode: 'repulse', // push:追加, remove:削除, bubble:拡大, repulse:反発
           },
-          resize: true
+          resize: true,
         },
 
         // 各モード設定
@@ -169,31 +169,31 @@ export default {
           grab: {
             distance: 300,
             line_linked: {
-              opacity: 1
-            }
+              opacity: 1,
+            },
           },
           bubble: {
             distance: 100,
             size: 7.5,
             duration: 2,
             opacity: 8,
-            speed: 3
+            speed: 3,
           },
           repulse: {
-            distance: 100
+            distance: 100,
           },
           push: {
-            particles_nb: 4
+            particles_nb: 4,
           },
           remove: {
-            particles_nb: 2
-          }
-        }
+            particles_nb: 2,
+          },
+        },
       },
       // Retina Display対応
-      retina_detect: true
+      retina_detect: true,
     })
-  }
+  },
 }
 </script>
 

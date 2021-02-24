@@ -6,22 +6,16 @@
         <span class="font-ja">お手伝いできるかもしれないこと</span>
       </h1>
       <div class="font-ja">
+        <p>土日しか稼働できないため、大きなものや短納期なものは難しいです。</p>
         <p class="mb-6">
-          土日しか稼働できないため、大きなものや短納期なものは難しいです。
+          どちらも本格的なものというより、まずは一歩踏み出してみるきっかけづくりがメインです。
         </p>
         <ul class="list-disc list-inside">
-          <li>
-            プロジェクト管理ツール導入による業務改善<br />色々お役に立てると思います
-          </li>
+          <li>プロジェクト管理ツール導入による業務改善/DX相談</li>
+          <li>アジャイル/スクラムの導入支援</li>
+          <li>プロダクトオーナー支援</li>
           <li>Spring Frameworkを用いたサーバーサイドの開発</li>
-          <li>
-            Vue.js/Nuxt.jsを用いたフロントエンドの開発<br />これは全然自信がないです
-          </li>
-          <li>このサイトのような簡単なホームページ製作</li>
-          <li>Mastodonサーバーの構築</li>
-          <li>
-            なにか作りたいけどどうすればいいか分からない、などへのアドバイス
-          </li>
+          <li>簡単なホームページ製作/改修<br />など</li>
         </ul>
       </div>
     </section>
@@ -33,7 +27,7 @@
           v-for="(item, index) in items"
           :key="index"
           :header="item.header"
-          :headerIconClasses="item.headerIconClasses"
+          :header-icon-classes="item.headerIconClasses"
           :list="item.list"
         />
       </section>
@@ -46,29 +40,29 @@ import HeaderedList from '~/components/atoms/HeaderedList'
 
 export default {
   components: {
-    HeaderedList
+    HeaderedList,
   },
   data() {
     return {
       items: [
         {
-          header: '使用IDE',
+          header: 'HP制作',
           headerIconClasses: ['fas', 'fa-wrench'],
-          list: ['IntelliJ IDEA', 'VS Code']
+          list: ['WordPress', 'Nuxt.js'],
         },
         {
-          header: '言語',
+          header: '言語/FW',
           headerIconClasses: ['fas', 'fa-laptop-code'],
-          list: ['Java', 'Kotlin', 'Vue.js']
+          list: ['Java', 'Kotlin', 'Spring'],
         },
         {
           header: '業務ツール',
           headerIconClasses: ['fas', 'fa-tasks'],
-          list: ['Backlog', 'Cacoo', 'Typetalk']
-        }
-      ]
+          list: ['Backlog', 'Cacoo', 'Typetalk'],
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

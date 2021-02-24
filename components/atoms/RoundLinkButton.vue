@@ -17,7 +17,7 @@
       target="_blank"
       class="round-button-icon"
     >
-      <span v-html="iconElement" :class="iconClass"></span>
+      <span :class="iconClass" v-html="iconElement"></span>
     </a>
   </div>
 </template>
@@ -28,29 +28,29 @@ export default {
     link: {
       type: String,
       default: 'https://twitter.com/kxn4t',
-      required: true
+      required: true,
     },
     rel: {
       type: String,
       default: '',
-      required: false
+      required: false,
     },
     label: {
       type: String,
       default: 'link',
-      required: true
+      required: true,
     },
     iconElement: {
       type: String,
       default: '<i class="fab fa-twitter"></i>',
-      required: true
+      required: true,
     },
     iconClass: {
       type: String,
       default: '',
-      required: false
-    }
-  }
+      required: false,
+    },
+  },
 }
 </script>
 

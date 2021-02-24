@@ -6,7 +6,7 @@
       v-for="(item, index) in items"
       :key="index"
       :header="item.header"
-      :headerIconClasses="item.headerIconClasses"
+      :header-icon-classes="item.headerIconClasses"
       :list="item.list"
     />
   </section>
@@ -17,7 +17,7 @@ import HeaderedList from '~/components/atoms/HeaderedList'
 
 export default {
   components: {
-    HeaderedList
+    HeaderedList,
   },
   data() {
     return {
@@ -25,20 +25,20 @@ export default {
         {
           header: 'すきなもの',
           headerIconClasses: ['fas', 'fa-heart'],
-          list: ['加藤恵', '山崎エリイ', 'ボードゲーム', 'プリコネR']
+          list: ['加藤恵', '山崎エリイ', 'ボードゲーム', 'プリコネR'],
         },
         {
           header: '趣味',
           headerIconClasses: ['fas', 'fa-gamepad'],
-          list: ['ゲーム / ボードゲーム', 'アニメ', '写真', 'ぐうたら']
+          list: ['ゲーム / ボードゲーム', 'アニメ', '写真', 'ぐうたら'],
         },
         {
           header: '言語',
           headerIconClasses: ['fas', 'fa-laptop-code'],
-          list: ['Java', 'kotlin', 'PHP']
-        }
-      ]
+          list: ['Java', 'kotlin'],
+        },
+      ],
     }
-  }
+  },
 }
 </script>

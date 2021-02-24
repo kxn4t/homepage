@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       loading: true,
-      items: []
+      items: [],
     }
   },
   async mounted() {
@@ -62,6 +62,6 @@ export default {
     } catch (error) {
       // noop
     }
-  }
+  },
 }
 </script>

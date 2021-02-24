@@ -6,16 +6,14 @@
       <span class="text-item delay-anime">め</span>
       <span class="text-item delay-anime">り</span>
       <span class="text-item delay-anime">ぜ</span>
-      <div class="sub">
-        - すべてを自分らしく。-
-      </div>
+      <div class="sub">- すべてを自分らしく。-</div>
     </div>
     <div>
       <img
         class="children w-24 h-24"
         src=""
         alt="main-chara-image"
-        style="opacity: 0;"
+        style="opacity: 0"
       />
     </div>
   </div>
@@ -26,9 +24,9 @@ export default {
   head() {
     return {
       titleTemplate: null,
-      title: 'かなめりぜ'
+      title: 'かなめりぜ',
     }
-  }
+  },
 }
 </script>
 

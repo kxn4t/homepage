@@ -35,7 +35,7 @@ const colors = {
   blue: '#89D5C9',
   yellow: '#FAC172',
   orange: '#FF8357',
-  red: '#E25B45'
+  red: '#E25B45',
 }
 
 function randomColor() {
@@ -46,15 +46,15 @@ function randomColor() {
 export default {
   components: {
     TheNavbar,
-    Background
+    Background,
   },
   data() {
     return {
       style: {
-        '--accent-color': randomColor()
+        '--accent-color': randomColor(),
       },
-      colors: Object.values(colors)
+      colors: Object.values(colors),
     }
-  }
+  },
 }
 </script>

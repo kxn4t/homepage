@@ -9,7 +9,7 @@
         <card
           :link="item.link"
           :img="item.img"
-          :imgAlt="item.imgAlt"
+          :img-alt="item.imgAlt"
           :title="item.title"
           :content="item.content"
           :tags="item.tags"
@@ -26,15 +26,15 @@ import Card from '~/components/atoms/Card'
 
 export default {
   components: {
-    Card
+    Card,
   },
   props: {
     items: {
       type: Array,
       require: false,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 }
 </script>
 

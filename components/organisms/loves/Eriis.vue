@@ -1,8 +1,6 @@
 <template>
   <div class="font-ja">
-    <p>
-      山崎エリイちゃんが好き。
-    </p>
+    <p>山崎エリイちゃんが好き。</p>
     <p>
       every♥ing!の解散をライブ会場で聞いたときは泣き崩れてしまったけど、そのままエリイちゃんのオタクになった。
     </p>
@@ -15,7 +13,7 @@ import Cards from '~/components/molecules/Cards'
 
 export default {
   components: {
-    Cards
+    Cards,
   },
   data() {
     return {
@@ -26,7 +24,7 @@ export default {
           title: '十代交響曲',
           content:
             'エリイちゃん名義での1stシングル。ライブでも盛り上がる曲。十代という未完成な年代での迷いや葛藤について力強い歌唱力で歌ってて良い。',
-          tags: []
+          tags: [],
         },
         {
           img: '',
@@ -34,7 +32,7 @@ export default {
           title: 'a little little thing',
           content:
             'りるりるはかわいい。かわいい。サビのダンス部分が妙にくせになる。個人的にはちゅるちゅるちゅちゅちゅを想起してしまう。',
-          tags: []
+          tags: [],
         },
         {
           img: '',
@@ -42,10 +40,10 @@ export default {
           title: 'Remember me?',
           content:
             'Erii名義での2ndシングル。今までとは打って変わってロックテイストな曲。普段はふにゃふにゃのかわいらしいイメージが強いんだけど、音楽となると演奏に負けないくらい強いのがかっこいい。',
-          tags: []
-        }
-      ]
+          tags: [],
+        },
+      ],
     }
-  }
+  },
 }
 </script>
