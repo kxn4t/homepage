@@ -96,6 +96,15 @@ export default {
    */
   axios: {},
   /*
+   ** PWA module configuration
+   ** See https://go.nuxtjs.dev/pwa
+   */
+  pwa: {
+    manifest: {
+      lang: 'ja',
+    },
+  },
+  /*
    ** Build configuration
    */
   build: {
