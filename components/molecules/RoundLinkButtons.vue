@@ -44,6 +44,9 @@ export default {
 .round-button:hover /deep/ .icon-qiita {
   color: #55c500;
 }
+.round-button:hover /deep/ .icon-zenn {
+  color: #3ea8ff;
+}
 
 @keyframes fade-in {
   0% {

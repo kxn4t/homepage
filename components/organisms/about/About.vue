@@ -15,7 +15,7 @@
         <p>
           プログラムを書くよりも機能の設計などが得意で、最近はプロダクトオーナーとして色々やってる。
         </p>
-        <p>本当のところはプログラムばりばり書けるマンになりたい。</p>
+        <p>認証周りをよく触っていて、特にSAMLに強みを持っている。</p>
         <p>
           ボードゲームをやったり、最近はおめシスの動画をひたすら見るのが生きがい。
           ただのオタク。
@@ -48,13 +48,6 @@ export default {
           iconElement: '<i class="fab fa-twitter"></i>',
         },
         {
-          link: 'https://mastodon.kxn4t.tech/@kxn4t',
-          rel: 'me',
-          label: 'mastodon account',
-          iconClass: 'icon-mastodon',
-          iconElement: '<i class="fab fa-mastodon"></i>',
-        },
-        {
           link: 'https://github.com/kxn4t',
           label: 'github account',
           iconClass: 'icon-github',
@@ -65,6 +58,12 @@ export default {
           label: 'qiita account',
           iconClass: 'icon-qiita',
           iconElement: '<span class="font-ja font-bold">Q</span>',
+        },
+        {
+          link: 'https://zenn.dev/kxn4t',
+          label: 'zenn account',
+          iconClass: 'icon-zenn',
+          iconElement: '<span class="font-ja font-bold">Z</span>',
         },
         {
           link: 'https://kxn4t.hatenablog.com/',

@@ -6,14 +6,12 @@
         <span class="font-ja">お手伝いできるかもしれないこと</span>
       </h1>
       <div class="font-ja">
-        <p>土日しか稼働できないため、大きなものや短納期なものは難しいです。</p>
         <p class="mb-6">
-          どちらも本格的なものというより、まずは一歩踏み出してみるきっかけづくりがメインです。
+          週に半日程度しか稼働できないため、大きなものや短納期なものは難しいです。
         </p>
         <ul class="list-disc list-inside">
-          <li>プロジェクト管理ツール導入による業務改善/DX相談</li>
-          <li>アジャイル/スクラムの導入支援</li>
           <li>プロダクトオーナー支援</li>
+          <li>認証周りの開発支援</li>
           <li>Spring Frameworkを用いたサーバーサイドの開発</li>
           <li>簡単なホームページ製作/改修<br />など</li>
         </ul>
@@ -56,9 +54,9 @@ export default {
           list: ['Java', 'Kotlin', 'Spring'],
         },
         {
-          header: '業務ツール',
-          headerIconClasses: ['fas', 'fa-tasks'],
-          list: ['Backlog', 'Cacoo', 'Typetalk'],
+          header: '認証',
+          headerIconClasses: ['fas', 'fa-key'],
+          list: ['SAML', 'WebAuthn'],
         },
       ],
     }
