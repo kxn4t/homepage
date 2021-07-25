@@ -2,12 +2,23 @@
   <!-- contact -->
   <section class="w-full">
     <h1 class="section-header text-3xl my-5 sm:mt-5 sm:mb-8">contact</h1>
-    <p class="font-ja mb-6">お問い合わせはこちらから。</p>
-    <p class="font-ja">
-      現在、週半日程度の稼働でもよければ、副業を募集しております。
-    </p>
-    <p class="font-ja">また、その他のご依頼でもお気軽にご相談ください。</p>
+    <div class="font-ja">
+      <p class="mb-6">お問い合わせはこちらから。</p>
+      <p>現在、週半日程度の稼働でもよければ、副業を募集しております。</p>
+      <p>また、その他のご依頼でもお気軽にご相談ください。</p>
+    </div>
     <ContactDescription />
+    <div class="font-ja mb-6">
+      <p>
+        問い合わせの際は、簡単にでよいので依頼内容について記載いただけると助かります。
+      </p>
+      <p>
+        現在の勤め先によるチェックが入るため、実際の稼働まで少しお時間がかかる可能性があります。
+      </p>
+      <p>
+        また、現在の勤め先と競合に当たる場合、お受けできませんのでご了承ください。
+      </p>
+    </div>
     <ContactForm />
   </section>
 </template>
