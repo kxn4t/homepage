@@ -100,7 +100,6 @@ export default {
    ** See https://go.nuxtjs.dev/pwa
    */
   pwa: {
-    icon: false,
     manifest: {
       lang: 'ja',
     },
