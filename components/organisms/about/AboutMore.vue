@@ -25,7 +25,7 @@ export default {
         {
           header: 'すきなもの',
           headerIconClasses: ['fas', 'fa-heart'],
-          list: ['加藤恵', '山崎エリイ', 'ボードゲーム', 'プリコネR'],
+          list: ['加藤恵', '山崎エリイ', 'ボードゲーム', 'おめシス'],
         },
         {
           header: '趣味',

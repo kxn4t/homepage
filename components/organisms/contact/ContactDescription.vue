@@ -10,10 +10,9 @@
           週に半日程度しか稼働できないため、大きなものや短納期なものは難しいです。
         </p>
         <ul class="list-disc list-inside">
-          <li>プロダクトオーナー支援</li>
           <li>認証周りの開発支援</li>
           <li>Spring Frameworkを用いたサーバーサイドの開発</li>
-          <li>簡単なホームページ製作/改修<br />など</li>
+          <li>簡易なホームページ製作/改修<br />など</li>
         </ul>
       </div>
     </section>
@@ -44,9 +43,9 @@ export default {
     return {
       items: [
         {
-          header: 'HP制作',
-          headerIconClasses: ['fas', 'fa-wrench'],
-          list: ['WordPress', 'Nuxt.js'],
+          header: '認証',
+          headerIconClasses: ['fas', 'fa-key'],
+          list: ['SAML（一番得意）', 'WebAuthn（自信なし）'],
         },
         {
           header: '言語/FW',
@@ -54,9 +53,9 @@ export default {
           list: ['Java', 'Kotlin', 'Spring'],
         },
         {
-          header: '認証',
-          headerIconClasses: ['fas', 'fa-key'],
-          list: ['SAML', 'WebAuthn'],
+          header: 'HP制作',
+          headerIconClasses: ['fas', 'fa-wrench'],
+          list: ['WordPress', 'Nuxt.js'],
         },
       ],
     }
