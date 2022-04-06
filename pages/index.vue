@@ -35,9 +35,16 @@ export default {
     const osDark = window.matchMedia('(prefers-color-scheme: dark)')
     const listener = (event) => {
       if (event.matches) {
-        this.darkmode = true
-      } else {
+        // 再描画しないとなぜかdata-srcとsrcに差分がでて切り替わらない
         this.darkmode = false
+        this.$nextTick(() => {
+          this.darkmode = true
+        })
+      } else {
+        this.darkmode = true
+        this.$nextTick(() => {
+          this.darkmode = false
+        })
       }
     }
     osDark.addEventListener('change', listener)
