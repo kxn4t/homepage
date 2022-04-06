@@ -1,11 +1,8 @@
 <template>
   <div class="parent">
     <div class="font-ja pt-20 sm:pt-40">
-      <span class="text-item delay-anime">か</span>
-      <span class="text-item delay-anime">な</span>
-      <span class="text-item delay-anime">め</span>
-      <span class="text-item delay-anime">り</span>
-      <span class="text-item delay-anime">ぜ</span>
+      <img v-if="darkmode" v-lazy="logoWhite" class="w-64 logo" alt="logo" />
+      <img v-else v-lazy="logo" class="w-64 logo" alt="logo" />
       <div class="sub">- すべてを自分らしく。-</div>
     </div>
     <div>
@@ -21,11 +18,37 @@
 
 <script>
 export default {
+  data() {
+    return {
+      darkmode: false,
+      logoWhite: require('~/assets/images/logo-white.png'),
+      logo: require('~/assets/images/logo.png'),
+    }
+  },
   head() {
     return {
       titleTemplate: null,
       title: 'かなめりぜ',
     }
+  },
+  mounted() {
+    const osDark = window.matchMedia('(prefers-color-scheme: dark)')
+    const listener = (event) => {
+      if (event.matches) {
+        // 再描画しないとなぜかdata-srcとsrcに差分がでて切り替わらない
+        this.darkmode = false
+        this.$nextTick(() => {
+          this.darkmode = true
+        })
+      } else {
+        this.darkmode = true
+        this.$nextTick(() => {
+          this.darkmode = false
+        })
+      }
+    }
+    osDark.addEventListener('change', listener)
+    listener(osDark)
   },
 }
 </script>
@@ -79,6 +102,6 @@ export default {
   }
 }
 .sub {
-  animation: text-in 1s ease-in-out 3s backwards;
+  animation: text-in 1s ease-in-out 1s backwards;
 }
 </style>
