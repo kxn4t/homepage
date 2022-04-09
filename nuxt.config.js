@@ -32,8 +32,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        // TODO: add image
-        content: 'https://example.com/img/ogp/common.jpg',
+        content: '/ogp.png',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@kxn4t' },

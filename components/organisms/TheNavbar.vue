@@ -22,6 +22,12 @@
           </nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/works" class="nav-menu-item mr-2 sm:mr-5">
+            <span class="sm:hidden"><i class="fas fa-award"></i></span>
+            <span class="hidden sm:inline-block">works</span>
+          </nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/loves" class="nav-menu-item mr-2 sm:mr-5">
             <span class="sm:hidden"><i class="fas fa-heart"></i></span>
             <span class="hidden sm:inline-block">loves</span>
