@@ -1,8 +1,15 @@
 <template>
   <div class="parent">
     <div class="font-ja pt-20 sm:pt-40">
-      <img v-if="darkmode" v-lazy="logoWhite" class="w-64 logo" alt="logo" />
-      <img v-else v-lazy="logo" class="w-64 logo" alt="logo" />
+      <img
+        v-if="darkmode"
+        :key="logoWhite"
+        v-lazy="logoWhite"
+        class="w-64 logo"
+        alt="logo"
+      />
+      <img v-else :key="logo" v-lazy="logo" class="w-64 logo" alt="logo" />
+
       <div class="sub">- すべてを自分らしく。-</div>
     </div>
     <div>
@@ -35,16 +42,9 @@ export default {
     const osDark = window.matchMedia('(prefers-color-scheme: dark)')
     const listener = (event) => {
       if (event.matches) {
-        // 再描画しないとなぜかdata-srcとsrcに差分がでて切り替わらない
-        this.darkmode = false
-        this.$nextTick(() => {
-          this.darkmode = true
-        })
-      } else {
         this.darkmode = true
-        this.$nextTick(() => {
-          this.darkmode = false
-        })
+      } else {
+        this.darkmode = false
       }
     }
     osDark.addEventListener('change', listener)
