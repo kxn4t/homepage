@@ -32,7 +32,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/ogp.png',
+        content: 'https://kanameliser.net/ogp.png',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@kxn4t' },
