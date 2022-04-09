@@ -1,17 +1,15 @@
 <template>
-  <div class="mb-10 sm:mb-5">
-    <h2 class="section-header text-xl my-5 mt-10">
-      <i class="fas fa-book accent-font-color text-base"></i> books
-    </h2>
-    <div class="flex flex-col md:flex-row items-center mb-5">
+  <div>
+    <!-- SAML -->
+    <div class="flex flex-col md:flex-row items-center md:items-start pt-4">
       <img
         v-lazy="samlFanzine"
-        class="flex-shrink-0 h-56 mb-5 sm:mx-10 sm:mb-0 shadow-lg"
+        class="flex-shrink-0 w-40 mb-5 sm:ml-10 sm:mr-10 sm:mb-0 shadow-lg"
         alt="saml fanzine"
       />
 
       <div class="flex flex-col justify-around">
-        <div class="my-2">
+        <div class="my-1">
           <span class="font-ja font-semibold text-xl">SAML入門</span>
           <a
             href="https://introduction-to-saml.tumblr.com/"
