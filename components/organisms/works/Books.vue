@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="pt-4">
     <!-- SAML -->
-    <div class="flex flex-col md:flex-row items-center md:items-start pt-4">
+    <div class="flex flex-col md:flex-row items-center md:items-start">
       <img
         v-lazy="samlFanzine"
         class="flex-shrink-0 w-40 mb-5 sm:ml-10 sm:mr-10 sm:mb-0 shadow-lg"
