@@ -39,7 +39,7 @@ export default {
   },
   data() {
     return {
-      icon: require('~/assets/images/icon.jpg'),
+      icon: require('~/assets/images/icon.png'),
       accounts: [
         {
           link: 'https://twitter.com/kxn4t',
