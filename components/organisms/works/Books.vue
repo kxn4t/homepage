@@ -10,6 +10,9 @@
 
       <div class="flex flex-col justify-around">
         <div class="my-1">
+          <div>
+            <Label>同人誌</Label>
+          </div>
           <span class="font-ja font-semibold text-xl">SAML入門</span>
           <a
             href="https://introduction-to-saml.tumblr.com/"
@@ -37,7 +40,12 @@
 </template>
 
 <script>
+import Label from '~/components/atoms/Label.vue'
+
 export default {
+  components: {
+    Label,
+  },
   data() {
     return {
       samlFanzine: require('~/assets/images/saml-fanzine-cover.png'),
