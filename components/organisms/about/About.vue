@@ -7,8 +7,28 @@
     />
 
     <div class="flex flex-col justify-around">
-      <div class="font-ja font-semibold text-xl my-1">
-        加藤かな<span class="font-ubuntu text-sm ml-3">( kana@kxn4t )</span>
+      <div
+        class="font-ja font-semibold my-1 text-xl flex flex-col sm:flex-none sm:flex-row"
+      >
+        <span>
+          加藤かな<span class="font-ubuntu text-sm ml-3">( kana@kxn4t )</span>
+        </span>
+        <span class="light-font-color sm:ml-3">
+          <span class="font-ubuntu text-xs"
+            >[illustrated by
+            <span class="font-ja text-xs"
+              >れい亜
+              <a
+                href="https://twitter.com/aosorayuri24"
+                rel="noreferrer noopener"
+                target="_blank"
+                aria-label="れい亜さんのTwitterを開く"
+                class="link inline-block"
+                ><i class="fas fa-external-link-alt"></i></a
+              >]</span
+            >
+          </span>
+        </span>
       </div>
       <div class="font-ja">
         <p>関東在住の美少女エンジニア。</p>

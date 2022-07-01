@@ -165,6 +165,11 @@ table tbody tr {
   border-bottom: var(--table-sub-border-color) 1px solid;
 }
 
+.hr {
+  border-top: 1px dashed #e25b45;
+  border-top: 1px dashed var(--accent-color);
+}
+
 /* page */
 /* purgecss start ignore */
 .page-enter-active,
