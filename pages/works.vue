@@ -4,7 +4,7 @@
     <section class="w-full mb-10 sm:mb-5">
       <h1 class="section-header text-3xl my-5 sm:mt-5 sm:mb-8">works</h1>
       <!-- books -->
-      <section class="mb-5 w-full">
+      <section class="mb-10 w-full">
         <h1 class="section-header text-xl my-4 mt-8">
           <i class="fas fa-book accent-font-color text-base"></i> books
         </h1>
