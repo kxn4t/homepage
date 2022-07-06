@@ -11,8 +11,8 @@
         </p>
         <ul class="list-disc list-inside">
           <li>認証周りの開発支援</li>
-          <li>Spring Frameworkを用いたサーバーサイドの開発</li>
-          <li>簡易なホームページ製作/改修<br />など</li>
+          <li>SAMLなど認証周りの疑問相談（数時間程度）</li>
+          <li>Spring Frameworkを用いたサーバーサイドの開発<br />など</li>
         </ul>
       </div>
     </section>
@@ -51,11 +51,6 @@ export default {
           header: '言語/FW',
           headerIconClasses: ['fas', 'fa-laptop-code'],
           list: ['Java', 'Kotlin', 'Spring'],
-        },
-        {
-          header: 'HP制作',
-          headerIconClasses: ['fas', 'fa-wrench'],
-          list: ['WordPress', 'Nuxt.js'],
         },
       ],
     }
