@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="mb-10 w-full">
+    <section class="mb-6 w-full">
       <h1 class="section-header text-xl my-4 mt-8">
         <i class="fas fa-comment accent-font-color text-base"></i>
         <span class="font-ja">お手伝いできるかもしれないこと</span>
@@ -10,13 +10,12 @@
           週に半日程度しか稼働できないため、大きなものや短納期なものは難しいです。
         </p>
         <ul class="list-disc list-inside">
-          <li>認証周りの開発支援</li>
-          <li>SAMLなど認証周りの疑問相談（数時間程度）</li>
-          <li>Spring Frameworkを用いたサーバーサイドの開発<br />など</li>
+          <li>SAMLに関する相談</li>
+          <li>認証周りの開発支援<br />など</li>
         </ul>
       </div>
     </section>
-    <section class="mb-10 sm:mb-0 w-full">
+    <section class="w-full">
       <section
         class="w-full flex flex-col md:flex-row justify-around items-center"
       >
@@ -29,6 +28,20 @@
         />
       </section>
     </section>
+    <div class="mb-10 w-full">
+      <h2 class="section-header text-lg my-4 mt-8 sm:mt-0">
+        <span class="font-ja">人気のご相談例</span>
+      </h2>
+      <p class="mb-6">
+        「SAMLを実装する上で発生した疑問点を解決したい、詳しい人に直接聞けば解決しそう。」といった場合は次のような流れで対応いたします。
+      </p>
+      <ol class="list-decimal list-inside">
+        <li>依頼したい内容や条件面の確認・すり合わせ</li>
+        <li>メールによる事前ヒアリング</li>
+        <li>回答の準備（2,3日程度）</li>
+        <li>Web会議による相談（1〜2時間程度）</li>
+      </ol>
+    </div>
   </div>
 </template>
 
@@ -50,7 +63,7 @@ export default {
         {
           header: '言語/FW',
           headerIconClasses: ['fas', 'fa-laptop-code'],
-          list: ['Java', 'Kotlin', 'Spring'],
+          list: ['Java', 'Kotlin', 'Spring Framework'],
         },
       ],
     }

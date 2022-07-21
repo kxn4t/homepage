@@ -8,6 +8,7 @@
       <p>また、その他のご依頼でもお気軽にご相談ください。</p>
     </div>
     <ContactDescription />
+    <div class="my-8 w-4/5 md:w-20 mx-auto hr" aria-hidden="true"></div>
     <div class="font-ja mb-6">
       <p>
         問い合わせの際は、簡単にでよいので依頼内容について記載いただけると助かります。
