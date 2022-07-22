@@ -10,7 +10,15 @@
           週に半日程度しか稼働できないため、大きなものや短納期なものは難しいです。
         </p>
         <ul class="list-disc list-inside">
-          <li>SAMLに関する相談</li>
+          <li>
+            SAMLに関する相談
+            <ul class="list-disc list-inside">
+              <li>
+                ShibbolethやApache
+                mod_auth_mellonなど、リバースプロキシとして動作するような実装に関してはお力になれそうにないです
+              </li>
+            </ul>
+          </li>
           <li>認証周りの開発支援<br />など</li>
         </ul>
       </div>
